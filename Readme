@@ -1,0 +1,111 @@
+# TaskFlow
+
+TaskFlow est une application web de gestion de projets et de tâches développée dans le cadre d'un projet d'apprentissage Full Stack et DevOps.
+
+L'objectif est de concevoir une plateforme permettant à une entreprise de gérer ses projets, ses tâches et ses utilisateurs à travers une interface moderne et intuitive.
+
+## Fonctionnalités
+
+### Authentification
+
+* Inscription
+* Connexion
+* Gestion des rôles
+* Modification du profil
+
+### Gestion des projets
+
+* Création d'un projet
+* Modification d'un projet
+* Suppression d'un projet
+* Attribution d'utilisateurs à un projet
+
+### Gestion des tâches
+
+* Création de tâches
+* Affectation à un utilisateur
+* Gestion des statuts
+* Gestion des priorités
+* Suivi des échéances
+
+### Tableau de bord
+
+* Statistiques générales
+* Vue des projets
+* Vue des tâches
+* Activités récentes
+
+## Stack technique
+
+### Backend
+
+* Symfony
+* PHP
+* PostgreSQL
+* Doctrine ORM
+* JWT Authentication
+
+### Frontend
+
+* React
+* TypeScript
+* Vite
+* Tailwind CSS
+
+### DevOps
+
+* Docker
+* Docker Compose
+* GitHub Actions
+* Nginx
+* Ubuntu Server
+
+## Structure du projet
+
+```text
+taskflow/
+├── backend/
+├── frontend/
+├── docker/
+├── docker-compose.yml
+├── .env.example
+└── README.md
+```
+
+## Lancement du projet
+
+### Cloner le dépôt
+
+```bash
+git clone <repository-url>
+cd taskflow
+```
+
+### Configurer les variables d'environnement
+
+Créer un fichier `.env` à partir de `.env.example`.
+
+### Démarrer les services
+
+```bash
+docker compose up -d
+```
+
+### Vérifier les conteneurs
+
+```bash
+docker ps
+```
+
+## Organisation Git
+
+Le projet suit une organisation Git basée sur les branches suivantes :
+
+* `main` : version stable
+* `develop` : branche principale de développement
+* `feature/*` : développement des nouvelles fonctionnalités
+* `fix/*` : corrections de bugs
+
+## État du projet
+
+Le projet est actuellement en phase d'initialisation.
